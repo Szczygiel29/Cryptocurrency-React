@@ -27,7 +27,7 @@ Cryptocurrency-React is built using the following technologies:
 ## Installation
 To install Cryptocurrency-React, follow these steps:
 
-1. Clone the repository using git clone https://github.com/szczygiel29/cryptocurrency-react.git
+1. Clone the repository using git clone https://github.com/Szczygiel29/Cryptocurrency-React.git
 2. Navigate to the project directory using cd cryptocurrency-react
 3. Install dependencies using npm install
 4. Start the development server using npm start
