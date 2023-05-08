@@ -6,7 +6,7 @@ import CryptoDetails from './components/CryptoDetails.jsx'
 import Cryptocurrencies from './components/Cryptocurrencies.jsx'
 import News from './components/News.jsx'
 import Homepage from './components/Homepage.jsx'
-import Exchanges from './components/Exchanges.jsx'
+
 
 function App() {
 
@@ -20,7 +20,6 @@ function App() {
           <div className='routes'>
             <Routes>
               <Route exact path="/" Component={Homepage} />
-              <Route exact path="/exchanges" Component={Exchanges} />
               <Route exact path="/cryptocurrencies" Component={Cryptocurrencies} />
               <Route exact path="/crypto/:coinId" Component={CryptoDetails} />
               <Route exact path="/news" Component={News} />
@@ -34,6 +33,11 @@ function App() {
             </Link> <br />
             All Rights Reserved.
           </Typography.Title>
+          <Space>
+            <Link to="/">Home</Link>
+            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/news">News</Link>
+          </Space>
         </div>
       </div>
     </div>
